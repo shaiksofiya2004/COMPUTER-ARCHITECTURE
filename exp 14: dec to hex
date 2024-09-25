@@ -1,0 +1,10 @@
+//QUESTION:14 DECIMAL TO HEXADECIMAL 
+#include<stdio.h>
+int main()
+{
+	int decimlanum;
+	printf("enter a decimla number:");
+	scanf("%d",&decimlanum);
+	printf("hexadecimal equivalent:%X",decimlanum);
+	return 0;
+}
