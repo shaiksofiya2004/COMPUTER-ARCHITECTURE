@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int numbers[] = {4, 18, 24, 10, 9, 56};
+    int smallest = numbers[0];
+
+    for (int i = 1; i < sizeof(numbers) / sizeof(numbers[0]); i++)
+        if (numbers[i] < smallest) smallest = numbers[i];
+
+    printf("The smallest number is: %d\n", smallest);
+    
+    return 0;
+}
