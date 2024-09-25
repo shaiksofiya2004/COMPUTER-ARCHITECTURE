@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    char binaryNum[33]; // 32 bits + null terminator
+    printf("Enter a binary number: ");
+    scanf("%32s", binaryNum); // Limit input to 32 characters
+
+    int decimalNum = (int)strtol(binaryNum, NULL, 2); // Convert binary to decimal
+    printf("Hexadecimal equivalent: %X\n", decimalNum);
+    
+    return 0;
+}
+
