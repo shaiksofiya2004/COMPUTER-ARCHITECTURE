@@ -1,4 +1,4 @@
-// Question-34:Decimal to Binary conversion
+// Question-32:Decimal to Binary conversion
 #include<stdio.h>
 #include<stdlib.h>
 
